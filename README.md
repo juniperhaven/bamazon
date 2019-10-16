@@ -2,7 +2,10 @@
 Bamazon is an application that uses MySQL to store information about a fake storefront database, print out that storefront's items with their price and stock quantity, and then lets you purchase those items as long as the quantity you're attempting to purchase is in stock.
 
 ## Installation
-Using Git Bash or Terminal, clone the code on to your computer using ```https://github.com/juniperhaven/bamazon.git```. Navigate to the folder you downloaded the program to in Git Bash or Terminal and install the required Node packages by typing ```npm install``` in the console, then put your SQL password into the storefront.js file where it says "password" in the connection variable. Next, open the bamazon.sql file and run it to create the database. At this point you can run the storefront.js file by putting ```node storefront.js``` into the Git Bash or Terminal console.
+Using Git Bash or Terminal, clone the code on to your computer using ```https://github.com/juniperhaven/bamazon.git```. Navigate to the folder you downloaded the program to in Git Bash or Terminal and install the required Node packages by typing ```npm install``` in the console, then put your SQL password into the storefront.js file where it says "password" in the connection variable, seen here:
+![password](https://i.imgur.com/T8dOiu0.png)
+
+Next, open the bamazon.sql file and run it to create the database. At this point you can run the storefront.js file by putting ```node storefront.js``` into the Git Bash or Terminal console.
 
 ## Usage
 On being first run, the program will print out the list of items in the storefront with their item ID, item name, item department, price, and the quantity of the item in stock. There are 11 items in the storefront.
